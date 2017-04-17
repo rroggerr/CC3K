@@ -1,0 +1,3 @@
+standard
+zerovotes
+nocandidate

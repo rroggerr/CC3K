@@ -1,0 +1,6 @@
+a) the first one loops the 2d array by row-column and the second one loops through by column-row
+
+b) arrays   : 0.160s 
+   arrays2  : 0.770s
+
+c) when it’s looped through in the order of column-row, more of the stuff is stored onto memory that has a lower hierarchy and a lower access speed, therefore it increases the runtime.

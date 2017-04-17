@@ -1,0 +1,5 @@
+blank
+basic
+extended
+rest
+long

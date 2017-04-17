@@ -1,0 +1,40 @@
+10
+
+dir
+76
+svn+ssh://linux.student.cs.uwaterloo.ca/u/cs246/pubrepo/1139/lectures/se
+svn+ssh://linux.student.cs.uwaterloo.ca/u/cs246/pubrepo/1139
+
+
+
+2013-11-20T05:28:45.393205Z
+64
+cs246
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+d79e5567-f325-4c8e-a63b-5b6ed583b3dd
+
+singleton
+dir
+
+decorator
+dir
+
+visitors
+dir
+
+observer
+dir
+

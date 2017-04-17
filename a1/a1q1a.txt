@@ -1,0 +1,1 @@
+wc -w /usr/share/dict/words

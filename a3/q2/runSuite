@@ -1,0 +1,33 @@
+#!/bin/bash
+
+#check no of agrs
+if [ ${#} -ne 2 ]; then
+ echo "enter 2 arguments" >&2
+ exit 1
+fi
+
+if [ ! -r ${1} ]; then
+    echo "file does not exist" >&2
+    exit 1
+fi
+
+for one in `cat ${1}`; do
+ if [ -r ${one}.in -a -r ${one}.out ]; then
+  ${2} < ${one}.in > /tmp/res
+  diff /tmp/res ${one}.out > /dev/null
+  if [ ${?} -eq 1 ]; then
+   echo "Test failed:"
+   echo "Input:"
+   echo `cat ${one}.in`
+   echo "Expected:"
+   echo `cat ${one}.out`
+   echo "Actual:"
+   echo `cat /tmp/res`
+  fi
+  else
+   echo "error" >&2
+  exit 1
+fi
+rm /tmp/res
+done
+exit 0

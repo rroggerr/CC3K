@@ -1,0 +1,208 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2736BF5418232EC2001453B0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2736BF5318232EC2001453B0 /* main.cpp */; };
+		2736BF5D18232EFA001453B0 /* scoreboard.cc in Sources */ = {isa = PBXBuildFile; fileRef = 2736BF5B18232EFA001453B0 /* scoreboard.cc */; };
+		2736BF6018232F0A001453B0 /* player.cc in Sources */ = {isa = PBXBuildFile; fileRef = 2736BF5E18232F0A001453B0 /* player.cc */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2736BF4D18232EC2001453B0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2736BF4F18232EC2001453B0 /* game */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = game; sourceTree = BUILT_PRODUCTS_DIR; };
+		2736BF5318232EC2001453B0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		2736BF5B18232EFA001453B0 /* scoreboard.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = scoreboard.cc; sourceTree = "<group>"; };
+		2736BF5C18232EFA001453B0 /* scoreboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scoreboard.h; sourceTree = "<group>"; };
+		2736BF5E18232F0A001453B0 /* player.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = player.cc; sourceTree = "<group>"; };
+		2736BF5F18232F0A001453B0 /* player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = player.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2736BF4C18232EC2001453B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2736BF4418232EC2001453B0 = {
+			isa = PBXGroup;
+			children = (
+				2736BF5218232EC2001453B0 /* game */,
+				2736BF5018232EC2001453B0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2736BF5018232EC2001453B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2736BF4F18232EC2001453B0 /* game */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2736BF5218232EC2001453B0 /* game */ = {
+			isa = PBXGroup;
+			children = (
+				2736BF5318232EC2001453B0 /* main.cpp */,
+				2736BF5E18232F0A001453B0 /* player.cc */,
+				2736BF5F18232F0A001453B0 /* player.h */,
+				2736BF5B18232EFA001453B0 /* scoreboard.cc */,
+				2736BF5C18232EFA001453B0 /* scoreboard.h */,
+			);
+			path = game;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2736BF4E18232EC2001453B0 /* game */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2736BF5818232EC2001453B0 /* Build configuration list for PBXNativeTarget "game" */;
+			buildPhases = (
+				2736BF4B18232EC2001453B0 /* Sources */,
+				2736BF4C18232EC2001453B0 /* Frameworks */,
+				2736BF4D18232EC2001453B0 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = game;
+			productName = game;
+			productReference = 2736BF4F18232EC2001453B0 /* game */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2736BF4618232EC2001453B0 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 2736BF4918232EC2001453B0 /* Build configuration list for PBXProject "game" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2736BF4418232EC2001453B0;
+			productRefGroup = 2736BF5018232EC2001453B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2736BF4E18232EC2001453B0 /* game */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2736BF4B18232EC2001453B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2736BF5418232EC2001453B0 /* main.cpp in Sources */,
+				2736BF5D18232EFA001453B0 /* scoreboard.cc in Sources */,
+				2736BF6018232F0A001453B0 /* player.cc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2736BF5618232EC2001453B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		2736BF5718232EC2001453B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2736BF5918232EC2001453B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2736BF5A18232EC2001453B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2736BF4918232EC2001453B0 /* Build configuration list for PBXProject "game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2736BF5618232EC2001453B0 /* Debug */,
+				2736BF5718232EC2001453B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2736BF5818232EC2001453B0 /* Build configuration list for PBXNativeTarget "game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2736BF5918232EC2001453B0 /* Debug */,
+				2736BF5A18232EC2001453B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2736BF4618232EC2001453B0 /* Project object */;
+}

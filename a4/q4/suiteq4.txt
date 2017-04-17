@@ -1,0 +1,7 @@
+text
+simple
+textchange
+calculator
+calcstdin
+long
+multiple
